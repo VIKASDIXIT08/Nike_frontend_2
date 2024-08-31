@@ -10,7 +10,7 @@ export const Footer = () => {
         <Box h={'300px'} bg={'black'} color={'white'} mt={'40px'}>
 
             <Center h={'80px'}>
-                <Text className="typeWritertheme">Made with <Icon as={FcLike} /> by Mohit Sehrawat</Text>
+                <Text className="typeWritertheme">Made with <Icon as={FcLike} /> @ Vikash Dixit</Text>
             </Center>
 
             <Grid
@@ -57,17 +57,14 @@ export const Footer = () => {
                     color={'gray'}
                     mr={['0px', '30px', '80px', '80px', '80px']}
                 >
-                    <IconLink
-                        icon={MdOutlinePersonPin}
-                        link={"https://mohit-portfolio.vercel.app/"}
-                    />
+                   
                     <IconLink
                         icon={FaGithub}
-                        link={"https://github.com/m-sehrawat/"}
+                        link={"https://github.com/VIKASDIXIT08/"}
                     />
                     <IconLink
                         icon={FaLinkedin}
-                        link={"https://www.linkedin.com/in/mohitsehrawat/"}
+                        link={"https://www.linkedin.com/in/vikas-dixit-634051229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "}
                     />
                 </Flex>
 
